@@ -61,5 +61,11 @@ pub fn run(){
 
     p.set_last_name("Smith");
 
+
     println!("Person changed their name to {}", p.full_name());
+
+
+    let x = p.to_tuple();
+    // p isx moved and deallocated
+    
 }
